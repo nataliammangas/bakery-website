@@ -1,0 +1,134 @@
+@import "../scss/base/extend";
+@import "../scss/base/variables";
+
+
+.footer{
+        grid-area: footer;
+        height: 300px;
+        background-color: $second-color;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #d2f1f0 ;
+    .container-dos{
+        .titulo-footer{
+            color:white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Darker Grotesque'; 
+            padding-top: 15px;
+            text-align: center;
+        }
+        .sub-footer{
+            font-size: 16px;
+            font-family: 'Darker Grotesque'; 
+            color: #406b6a;
+            font-weight: bold;
+            list-style-type: none;
+            text-align: center;
+            padding-right:40px;
+        }
+    }
+     .container-tres{
+        .titulo-footer{
+            color:white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Darker Grotesque'; 
+            padding-top: 15px;
+            text-align: center;
+            padding-left: 20px;
+        }
+        ul{
+            display: block;
+            text-decoration: none;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 0;
+        }
+        .sub-titulo-footer{
+            font-size: 17px;
+            font-family:'Darker Grotesque' ; 
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .sub-footer{
+            font-size: 16px;
+            font-family: 'Darker Grotesque'; 
+            color:  #406b6a;
+            font-weight: bold;
+            list-style-type: none;
+            text-align: center;
+        }
+    }
+    .container-cuatro{
+        text-align: center;
+        div{
+            .titulo-footer{
+                color:white;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: 'Darker Grotesque'; 
+                padding-top: 15px;
+                text-align: center;
+        }   }   
+}
+
+
+
+    
+    /* fontawesome - icono facebook */
+    .fa-facebook{
+        color: #ffffff;
+        font-size: 30px;
+        text-decoration: none;
+        &:hover{
+            color:#406b6a;
+        }
+        
+    }
+    
+    /* fontawesome - icono instagram */
+    .fa-instagram{
+        color: #ffffff;
+        font-size: 30px;
+        text-decoration: none;
+        &:hover{
+            color: #406b6a;
+        }
+        
+    }
+    
+    /* ICONO WSP FIJO */
+    .logowhatsapp{
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        bottom: 0px;
+        right: 0px;
+    }
+    }
+
+.pie-de-pagina{
+    background-color: $second-color;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    p{
+        background-color: $second-color;
+        color:#ffffff;
+        font-family:'Familjen Grotesk', sans-serif;
+        font-size: 15px; 
+        margin-bottom: 0;
+        padding-bottom: 20px;;
+        
+    }
+}

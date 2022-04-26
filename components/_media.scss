@@ -1,0 +1,262 @@
+// mobile
+
+@media (min-width: 400px) and (max-width: 767px){
+    .logo{
+        height: 300px;
+        width:100%;
+        background-image: url(../img/nav-photo.jpg);
+        background-position-x: left;
+        background-position-y: center;
+        padding-bottom: 50px;
+        .logo-header{
+            border-radius: 100%;
+            border: 2px solid $principal-color;
+            width: 160px;
+            margin-top: 51px;
+        }
+        .conamor{
+            font-size: 25px;
+            font-weight: bold;
+            text-shadow: #888788 0 -2px;
+
+        }
+    }
+    .footer{
+        flex-direction: column;
+        height: 100%;
+        .container-dos{
+            .sub-footer{
+                font-size: 23px;
+            }
+        }
+        .container-tres{
+            .sub-titulo-footer{
+                font-size: 23px;
+            }
+            .sub-footer{
+                font-size: 23px;
+            }
+        }
+        .container-cuatro{
+            padding-bottom: 20px;
+        }
+    }
+    .pie-de-pagina{
+        margin-top: -58px;
+            p{
+                padding-top: 43px;
+            }
+    }
+    main{
+        .productos{
+            .titulo-productos{
+                font-size:25px;
+            }
+        }
+    }
+
+
+    section{
+        margin: 20px;
+        .container-index{
+            text-align: center;
+            .parrafo-banner{
+                font-size: 17px;
+                padding: 13px;
+            }
+            .boton-index{
+                font-size: 16px;
+            }
+            
+        }
+    }
+    .row-divider{
+        .divider{
+            .blue-divider{
+                width: 7rem;
+            }
+        }
+    }
+    .section-nosotras{
+        flex-direction: column;
+        margin-right: 35px;
+        .container-flex-uno{
+            .titulo-historia{
+                font-size: 28px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        div{
+            img{
+                width: 334px!important;
+                height: 335px!important;
+            }
+        }
+    }
+    main{
+        .card-container{
+            .card-content{
+                h5{
+                    font-family: 'Darker Grotesque';
+                    text-align: center;
+                    color: $second-color;
+                    font-size: 30px;
+                }
+                p{
+                    font-family: 'Krub', sans-serif;
+                    text-align: center;
+                    color: #caf7f5;
+                    font-size: 19px;
+                }
+            }
+            .card-info{
+                padding:15px;
+                display:flex;
+                justify-content: center;
+                background: $second-color;
+                flex-direction: column;
+                }
+                .boton-blog{
+                    background-color:#caf7f5;
+                    border: #caf7f5;
+                    color: $second-color;
+                        &:hover{
+                        background-color:#d3e4cd;
+                        color:rgb(83, 148, 116);
+                        border: #d3e4cd;
+                    }
+                }
+            }
+        }
+        .informacion{
+            background: #fae7ef;
+            padding: 20px;
+            .subtitulo-contacto{
+                padding-bottom: 10px;
+
+            }
+            .second-text{
+                padding:20px;
+                
+            }
+        }
+       
+    }
+
+
+
+
+// tablet 
+@media (min-width: 768px) and (max-width: 991px)  {
+    .logo{
+        height: 300px;
+        width:100%;
+        background-image: url(../img/nav-photo.jpg);
+        background-position-x: left;
+        background-position-y: center;
+        padding-bottom: 50px;
+        .logo-header{
+            border-radius: 100%;
+            border: 2px solid $principal-color;
+            width: 160px;
+            margin-top: 51px;
+        }
+        .conamor{
+            font-size: 25px;
+            font-weight: bold;
+            text-shadow: #888788 0 -2px;
+        }
+    }
+    .pie-de-pagina{
+        margin-top: -58px;
+        p{
+            padding-top: 43px;
+        }
+    }
+    main{
+        .card-container{
+            .card-content{
+                h5{
+                    font-family: 'Darker Grotesque';
+                    text-align: center;
+                    color: $second-color;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        flex-direction: column;
+        height: 100%;
+        .container-dos{
+            .sub-footer{
+                font-size: 23px;
+            }
+        }
+        .container-tres{
+            .sub-titulo-footer{
+                font-size: 23px;
+            }
+            .sub-footer{
+                font-size: 23px;
+            }
+        }
+        .container-cuatro{
+            padding-bottom: 20px;
+        }
+    }
+    section{
+        margin: 20px;
+        .container-index{
+            text-align: center;
+            .parrafo-banner{
+                font-size: 17px;
+                padding: 13px;
+            }
+            .boton-index{
+                font-size: 16px;
+            }
+            
+        }
+    }
+    .row-divider{
+        .divider{
+            .blue-divider{
+                width: 8rem;
+            }
+        }
+    }
+    .section-nosotras{
+        flex-direction: column;
+        margin-right: 40px;
+        .container-flex-uno{
+            .titulo-historia{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        div{
+            text-align: center;
+            img{
+                width: 368px;
+                height: 400px;
+            }
+        }
+    }
+    .informacion{
+        background: #fae7ef;
+        .subtitulo-contacto{
+            padding-bottom: 10px;
+
+        }
+        .second-text{
+            padding: 18px;
+        }
+    }
+}
+

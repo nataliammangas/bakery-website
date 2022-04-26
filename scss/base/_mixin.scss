@@ -1,0 +1,5 @@
+@mixin display-one ($display, $vertical, $around){
+    display: $display;
+    flex-direction: $vertical;
+    text-align: $around; 
+};

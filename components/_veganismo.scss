@@ -1,0 +1,93 @@
+@import "../scss/base/mixin";
+@import "../scss/base/extend";
+@import "../scss/base/variables";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// MAIN-VEGAN
+main{
+    .titulo-blog{
+        font-family: 'Habibi', serif;
+        color: $principal-color;
+        font-size: 45px;
+        margin-top: 41px;
+        margin-bottom: 30px;
+        background-color: none;
+        }
+        p{
+            font-size:20px;
+            font-family: 'Habibi', serif;
+            color: #614c34;
+        }
+        .row-divider{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            .divider{
+                .blue-divider{
+                    border: solid $second-color;
+                    display: inline-block;
+                    border-width: 1px;
+                    vertical-align: middle;
+                    width: 9rem;
+                    opacity: inherit;
+                }
+            }
+        }
+        .card-container{
+            margin: 0 auto; 
+            max-width: 1000px;
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+            .card{
+                box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+                .card-img{
+                    width: 100%;
+                    display: block;
+                }
+                .card-content{
+                    text-align: center;
+                    padding: 20px;
+                    padding-top: 20px;
+                    h5{
+                        font-family:  'Habibi', serif;
+                        text-align: center;
+                        color: #00681f;
+                        font-size: 20px;
+                    }
+                    p{
+                        font-family: 'Krub', sans-serif;
+                        text-align: center;
+                        color: #614c34;
+                        font-size: 14px;
+                    }
+                }
+                .card-info{
+                    padding:15px;
+                    display:flex;
+                    justify-content: center;
+                    background: rgb(223, 217, 217);
+                    flex-direction: column;
+                    }
+                    .boton-blog{
+                        background-color:rgb(83, 148, 116);
+                        border: rgb(83, 148, 116);
+                        color: white;
+                        font-family: 'Familjen Grotesk', sans-serif;
+                        font-size: 15px !important;
+                            &:hover{
+                            background-color:#d3e4cd;
+                            color:rgb(83, 148, 116);
+                            border: #d3e4cd;
+                        }
+                    }
+                }
+    }
+}

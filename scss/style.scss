@@ -1,0 +1,25 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+
+// components
+@import "../components/contacto";
+@import "../components/footer";
+@import "../components/header";
+@import "../components/index";
+@import "../components/media";
+@import "../components/nosotras";
+@import "../components/productos";
+@import "../components/veganismo";
+
+// base
+@import "../scss/base/extend";
+@import "../scss/base/list";
+@import "../scss/base/maps";
+@import "../scss/base/mixin";
+@import "../scss/base/variables";

@@ -1,0 +1,106 @@
+@import "../scss/base/mixin";
+@import "../scss/base/extend";
+@import "../scss/base/variables";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    text-align: center;
+    .productos{
+        .titulo-productos{
+            font-family: 'Habibi', serif;
+            color: $principal-color;
+            font-size: 50px;
+            margin-top: 62px;
+            margin-bottom: 30px;
+            background-color: none;
+            text-align: center;
+        }
+    }
+    .titulo-tortas{
+        font-family: 'Familjen Grotesk';
+        text-align: center;
+        color: $second-color;
+        font-size: 40px;
+        margin: 30px;
+    }
+    .row-divider{
+        text-align: center;
+        margin-top: 40px;
+        .divider{
+            .blue-divider{
+                border: solid $second-color;
+                display: inline-block;
+                border-width: 1px;
+                vertical-align: middle;
+                width: 9rem;
+                opacity: inherit;
+            }
+        }
+    }
+    .card-container{
+        margin: 0 auto; 
+        max-width: 1000px;
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        .card{
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+            .card-img{
+                width: 100%;
+                display: block;
+            }
+            .card-content{
+                text-align: center;
+                padding: 20px;
+                h5{
+                    font-family: 'Darker Grotesque';
+                    text-align: center;
+                    color: $principal-color;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+            .card-info{
+                padding:15px;
+                display:flex;
+                justify-content: center;
+                background: rgb(223, 217, 217);
+                i{
+                    font-size: 25px; 
+                    color: #e284a9;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.boton-menu{
+    text-align: center;
+    margin-top: 30px;
+    .boton-index{
+            color: white;
+            font-family: 'Familjen Grotesk', sans-serif;
+            font-size: 25px;
+            padding: 10px;
+            margin-top:20px;
+            border: 2px solid $principal-color;
+            border-radius: 10px;
+            background-color: $principal-color;
+            text-decoration: none;
+            &:hover{
+                color: $principal-color;
+                background-color: #fae7ef;
+            }
+        }
+}

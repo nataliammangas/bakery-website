@@ -1,0 +1,819 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Habibi&display=swap");
+.informacion .subtitulo-contacto, .contacto div .subtitulo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto {
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+.contacto div .subtitulo-contacto {
+  color: #e284a9;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Habibi", serif;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.contacto div .row-divider {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.contacto div .row-divider .divider .blue-divider {
+  border: solid #90d2d0;
+  display: inline-block;
+  border-width: 1px;
+  vertical-align: middle;
+  width: 9rem;
+  opacity: inherit;
+}
+.contacto div .icono-location {
+  color: #e284a9;
+  padding-top: 20px;
+  font-size: 28px;
+}
+.contacto div .texto-contacto {
+  color: #614c34;
+  font-size: 22px;
+  font-family: "Crete Round";
+}
+
+.contact-form {
+  padding: 50px;
+  margin: 30px auto;
+}
+.contact-form label {
+  font-family: "Habibi", serif;
+  color: #614c34;
+  font-weight: bold;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control, .contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+.contact-form .form-control {
+  border-color: #e284a9;
+}
+
+.contact-form .form-control:focus {
+  border-color: #f1c5d7;
+  box-shadow: 0 0 8px #e284a9;
+}
+
+.contact-form .btn-primary {
+  min-width: 250px;
+  color: white;
+  background: #e284a9;
+  margin-top: 20px;
+  border: none;
+}
+
+.contact-form .btn-primary:hover {
+  color: #e284a9;
+  background-color: #f1c5d7;
+}
+
+.contact-form .btn-primary i {
+  margin-right: 5px;
+}
+
+.contact-form label {
+  opacity: 0.9;
+  font-family: "Habibi", serif;
+  color: #614c34;
+  font-weight: bold;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.bs-example {
+  margin: 20px;
+}
+
+.informacion {
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+.informacion .subtitulo-contacto {
+  color: #e284a9;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.informacion .second-text {
+  color: #614c34;
+  font-size: 20px;
+  font-family: "Crete Round";
+}
+
+.contacto div .subtitulo-contacto, .informacion .subtitulo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer {
+  grid-area: footer;
+  height: 300px;
+  background-color: #90d2d0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #d2f1f0;
+  /* fontawesome - icono facebook */
+  /* fontawesome - icono instagram */
+  /* ICONO WSP FIJO */
+}
+.footer .container-dos .titulo-footer {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Darker Grotesque";
+  padding-top: 15px;
+  text-align: center;
+}
+.footer .container-dos .sub-footer {
+  font-size: 16px;
+  font-family: "Darker Grotesque";
+  color: #406b6a;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+  padding-right: 40px;
+}
+.footer .container-tres .titulo-footer {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Darker Grotesque";
+  padding-top: 15px;
+  text-align: center;
+  padding-left: 20px;
+}
+.footer .container-tres ul {
+  display: block;
+  text-decoration: none;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+.footer .container-tres .sub-titulo-footer {
+  font-size: 17px;
+  font-family: "Darker Grotesque";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.footer .container-tres .sub-footer {
+  font-size: 16px;
+  font-family: "Darker Grotesque";
+  color: #406b6a;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+}
+.footer .container-cuatro {
+  text-align: center;
+}
+.footer .container-cuatro div .titulo-footer {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Darker Grotesque";
+  padding-top: 15px;
+  text-align: center;
+}
+.footer .fa-facebook {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.footer .fa-facebook:hover {
+  color: #406b6a;
+}
+.footer .fa-instagram {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.footer .fa-instagram:hover {
+  color: #406b6a;
+}
+.footer .logowhatsapp {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.pie-de-pagina {
+  background-color: #90d2d0;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 0px;
+}
+.pie-de-pagina p {
+  background-color: #90d2d0;
+  color: #ffffff;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-color {
+  background-color: #90d2d0;
+  text-align: center;
+}
+header .nav-color .container-fluid .navbar-title {
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script";
+  text-decoration: none;
+}
+header .nav-color .container-fluid .boton-navbar {
+  border-color: #d2f1f0;
+  color: #90d2d0;
+}
+header .nav-color .container-fluid .boton-navbar:hover {
+  color: #d2f1f0;
+}
+header .nav-color .container-fluid div ul li .nav-text-color {
+  color: white;
+  font-size: 20px;
+  font-family: "Crete Round", serif;
+}
+header .nav-color .container-fluid div ul li .nav-text-color:hover {
+  color: #d2f1f0;
+}
+
+.logo {
+  background-image: url(../img/banner-tienda.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+}
+.logo .logo-header {
+  border-radius: 100%;
+  border: 2px solid #e284a9;
+  width: 15%;
+  margin-top: 105px;
+}
+.logo .animate__animated {
+  --animate-duration: 1s;
+}
+.logo .animate__fadeInDown {
+  --animate-duration: 2s;
+}
+.logo .conamor {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: #888788 0 -2px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+section .container-index {
+  text-align: center;
+}
+section .container-index .parrafo-banner {
+  font-size: 17px;
+  text-align: center;
+  color: #90d2d0;
+  font-family: "Crete Round", serif;
+  text-shadow: 0 0 8px rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+section .container-index .boton-index {
+  color: white;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #e284a9;
+  border-radius: 10px;
+  background-color: #e284a9;
+  text-decoration: none;
+}
+section .container-index .boton-index:hover {
+  color: #e284a9;
+  background-color: #fae7ef;
+}
+
+.row-divider {
+  text-align: center;
+  margin-top: 40px;
+}
+.row-divider .divider .blue-divider {
+  border: solid #90d2d0;
+  display: inline-block;
+  border-width: 1px;
+  vertical-align: middle;
+  width: 9rem;
+  opacity: inherit;
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+  .logo {
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/nav-photo.jpg);
+    background-position-x: left;
+    background-position-y: center;
+    padding-bottom: 50px;
+  }
+  .logo .logo-header {
+    border-radius: 100%;
+    border: 2px solid #e284a9;
+    width: 160px;
+    margin-top: 51px;
+  }
+  .logo .conamor {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #888788 0 -2px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 100%;
+  }
+  .footer .container-dos .sub-footer {
+    font-size: 23px;
+  }
+  .footer .container-tres .sub-titulo-footer {
+    font-size: 23px;
+  }
+  .footer .container-tres .sub-footer {
+    font-size: 23px;
+  }
+  .footer .container-cuatro {
+    padding-bottom: 20px;
+  }
+
+  .pie-de-pagina {
+    margin-top: -58px;
+  }
+  .pie-de-pagina p {
+    padding-top: 43px;
+  }
+
+  main .productos .titulo-productos {
+    font-size: 25px;
+  }
+
+  section {
+    margin: 20px;
+  }
+  section .container-index {
+    text-align: center;
+  }
+  section .container-index .parrafo-banner {
+    font-size: 17px;
+    padding: 13px;
+  }
+  section .container-index .boton-index {
+    font-size: 16px;
+  }
+
+  .row-divider .divider .blue-divider {
+    width: 7rem;
+  }
+
+  .section-nosotras {
+    flex-direction: column;
+    margin-right: 35px;
+  }
+  .section-nosotras .container-flex-uno .titulo-historia {
+    font-size: 28px;
+  }
+  .section-nosotras .container-flex-uno p {
+    font-size: 15px;
+  }
+  .section-nosotras div img {
+    width: 334px !important;
+    height: 335px !important;
+  }
+
+  main .card-container .card-content h5 {
+    font-family: "Darker Grotesque";
+    text-align: center;
+    color: #90d2d0;
+    font-size: 30px;
+  }
+  main .card-container .card-content p {
+    font-family: "Krub", sans-serif;
+    text-align: center;
+    color: #caf7f5;
+    font-size: 19px;
+  }
+  main .card-container .card-info {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background: #90d2d0;
+    flex-direction: column;
+  }
+  main .card-container .boton-blog {
+    background-color: #caf7f5;
+    border: #caf7f5;
+    color: #90d2d0;
+  }
+  main .card-container .boton-blog:hover {
+    background-color: #d3e4cd;
+    color: rgb(83, 148, 116);
+    border: #d3e4cd;
+  }
+
+  .informacion {
+    background: #fae7ef;
+    padding: 20px;
+  }
+  .informacion .subtitulo-contacto {
+    padding-bottom: 10px;
+  }
+  .informacion .second-text {
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/nav-photo.jpg);
+    background-position-x: left;
+    background-position-y: center;
+    padding-bottom: 50px;
+  }
+  .logo .logo-header {
+    border-radius: 100%;
+    border: 2px solid #e284a9;
+    width: 160px;
+    margin-top: 51px;
+  }
+  .logo .conamor {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #888788 0 -2px;
+  }
+
+  .pie-de-pagina {
+    margin-top: -58px;
+  }
+  .pie-de-pagina p {
+    padding-top: 43px;
+  }
+
+  main .card-container .card-content h5 {
+    font-family: "Darker Grotesque";
+    text-align: center;
+    color: #90d2d0;
+    font-size: 30px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 100%;
+  }
+  .footer .container-dos .sub-footer {
+    font-size: 23px;
+  }
+  .footer .container-tres .sub-titulo-footer {
+    font-size: 23px;
+  }
+  .footer .container-tres .sub-footer {
+    font-size: 23px;
+  }
+  .footer .container-cuatro {
+    padding-bottom: 20px;
+  }
+
+  section {
+    margin: 20px;
+  }
+  section .container-index {
+    text-align: center;
+  }
+  section .container-index .parrafo-banner {
+    font-size: 17px;
+    padding: 13px;
+  }
+  section .container-index .boton-index {
+    font-size: 16px;
+  }
+
+  .row-divider .divider .blue-divider {
+    width: 8rem;
+  }
+
+  .section-nosotras {
+    flex-direction: column;
+    margin-right: 40px;
+  }
+  .section-nosotras .container-flex-uno .titulo-historia {
+    font-size: 30px;
+  }
+  .section-nosotras .container-flex-uno p {
+    font-size: 20px;
+  }
+  .section-nosotras div {
+    text-align: center;
+  }
+  .section-nosotras div img {
+    width: 368px;
+    height: 400px;
+  }
+
+  .informacion {
+    background: #fae7ef;
+  }
+  .informacion .subtitulo-contacto {
+    padding-bottom: 10px;
+  }
+  .informacion .second-text {
+    padding: 18px;
+  }
+}
+.section-nosotras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.section-nosotras .container-flex-uno {
+  margin-left: 30px;
+}
+.section-nosotras .container-flex-uno .titulo-historia {
+  font-family: "Habibi", serif;
+  color: #e284a9;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: none;
+}
+.section-nosotras .container-flex-uno p {
+  font-family: "Habibi", serif;
+  font-size: 21px;
+  margin: 10px 20px 20px 10px;
+  color: #865439;
+  text-align: center;
+  line-height: 2;
+}
+.section-nosotras div {
+  text-align: center;
+}
+.section-nosotras div img {
+  width: 368px;
+  height: 400px;
+}
+
+.contacto div .subtitulo-contacto, .informacion .subtitulo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+main .productos .titulo-productos {
+  font-family: "Habibi", serif;
+  color: #e284a9;
+  font-size: 50px;
+  margin-top: 62px;
+  margin-bottom: 30px;
+  background-color: none;
+  text-align: center;
+}
+main .titulo-tortas {
+  font-family: "Familjen Grotesk";
+  text-align: center;
+  color: #90d2d0;
+  font-size: 40px;
+  margin: 30px;
+}
+main .row-divider {
+  text-align: center;
+  margin-top: 40px;
+}
+main .row-divider .divider .blue-divider {
+  border: solid #90d2d0;
+  display: inline-block;
+  border-width: 1px;
+  vertical-align: middle;
+  width: 9rem;
+  opacity: inherit;
+}
+main .card-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+main .card-container .card {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+main .card-container .card .card-img {
+  width: 100%;
+  display: block;
+}
+main .card-container .card .card-content {
+  text-align: center;
+  padding: 20px;
+}
+main .card-container .card .card-content h5 {
+  font-family: "Darker Grotesque";
+  text-align: center;
+  color: #e284a9;
+  font-size: 30px;
+  font-weight: bold;
+}
+main .card-container .card .card-info {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background: rgb(223, 217, 217);
+}
+main .card-container .card .card-info i {
+  font-size: 25px;
+  color: #e284a9;
+}
+main .card-container .card .card-info i:hover {
+  color: white;
+}
+
+.boton-menu {
+  text-align: center;
+  margin-top: 30px;
+}
+.boton-menu .boton-index {
+  color: white;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #e284a9;
+  border-radius: 10px;
+  background-color: #e284a9;
+  text-decoration: none;
+}
+.boton-menu .boton-index:hover {
+  color: #e284a9;
+  background-color: #fae7ef;
+}
+
+.contacto div .subtitulo-contacto, .informacion .subtitulo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main .titulo-blog {
+  font-family: "Habibi", serif;
+  color: #e284a9;
+  font-size: 45px;
+  margin-top: 41px;
+  margin-bottom: 30px;
+  background-color: none;
+}
+main p {
+  font-size: 20px;
+  font-family: "Habibi", serif;
+  color: #614c34;
+}
+main .row-divider {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+main .row-divider .divider .blue-divider {
+  border: solid #90d2d0;
+  display: inline-block;
+  border-width: 1px;
+  vertical-align: middle;
+  width: 9rem;
+  opacity: inherit;
+}
+main .card-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+main .card-container .card {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+main .card-container .card .card-img {
+  width: 100%;
+  display: block;
+}
+main .card-container .card .card-content {
+  text-align: center;
+  padding: 20px;
+  padding-top: 20px;
+}
+main .card-container .card .card-content h5 {
+  font-family: "Habibi", serif;
+  text-align: center;
+  color: #00681f;
+  font-size: 20px;
+}
+main .card-container .card .card-content p {
+  font-family: "Krub", sans-serif;
+  text-align: center;
+  color: #614c34;
+  font-size: 14px;
+}
+main .card-container .card .card-info {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background: rgb(223, 217, 217);
+  flex-direction: column;
+}
+main .card-container .card .boton-blog {
+  background-color: rgb(83, 148, 116);
+  border: rgb(83, 148, 116);
+  color: white;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 15px !important;
+}
+main .card-container .card .boton-blog:hover {
+  background-color: #d3e4cd;
+  color: rgb(83, 148, 116);
+  border: #d3e4cd;
+}
+
+.contacto div .subtitulo-contacto, .informacion .subtitulo-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

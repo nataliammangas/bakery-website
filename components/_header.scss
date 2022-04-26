@@ -1,0 +1,73 @@
+@import "../scss/base/variables";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    .nav-color{
+        background-color: $second-color;
+        text-align: center;
+        .container-fluid{
+            .navbar-title{
+                color:white;
+                font-size:30px;
+                font-family: 'Dancing Script';
+                text-decoration: none;
+            }
+            
+            .boton-navbar{
+                border-color: #d2f1f0;
+                color: $second-color;
+                &:hover{
+                    color: #d2f1f0;
+                }
+            }
+            
+            div{
+                ul{
+                    li{
+                        .nav-text-color{
+                            color:white;
+                            font-size: 20px;
+                            font-family: 'Crete Round', serif;
+                            &:hover{
+                                color: #d2f1f0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo{
+    background-image: url(../img/banner-tienda.jpg);
+    height: 500px;
+    width:100%;
+    background-position: center ;
+    text-align: center;
+    .logo-header{
+        border-radius: 100%;
+        border: 2px solid $principal-color;
+        width: 15%;
+        margin-top: 105px;
+    }
+    .animate__animated{
+        --animate-duration: 1s;
+    }
+    .animate__fadeInDown{
+        --animate-duration: 2s;
+    }
+    .conamor{
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive; 
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+        text-shadow: #888788 0 -2px;
+    }
+}

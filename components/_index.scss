@@ -1,0 +1,50 @@
+@import "../scss/base/variables";
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    .container-index{
+        text-align: center;
+        .parrafo-banner{
+            font-size: 17px;
+            text-align: center;
+            color: $second-color;
+            font-family: 'Crete Round', serif;
+            text-shadow: 0 0 8px rgb(255, 255, 255);
+            padding-bottom: 20px;
+        }
+        .boton-index{
+            color: white;
+            font-family: 'Familjen Grotesk', sans-serif;
+            font-size: 16px;
+            padding: 10px;
+            margin-top:20px;
+            border: 2px solid $principal-color;
+            border-radius: 10px;
+            background-color: $principal-color;
+            text-decoration: none;
+            &:hover{
+                color: $principal-color;
+                background-color: #fae7ef;
+            }
+        }
+        
+    }
+}
+
+.row-divider{
+    text-align: center;
+    margin-top: 40px;
+    .divider{
+        .blue-divider{
+            border: solid $second-color;
+            display: inline-block;
+            border-width: 1px;
+            vertical-align: middle;
+            width: 9rem;
+            opacity: inherit;
+        }
+    }
+}
